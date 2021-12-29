@@ -14,8 +14,8 @@ const PortfolioARVRLayoutLazy = React.lazy(() => import('./app-layouts/Protfolio
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/AR.VR.WEBGL" element={<App />} />
-      <Route path="/portfolio" element={<Suspense fallback={<div>Loading...</div>}><PortfolioARVRLayoutLazy /></Suspense>} />
+      <Route path="/AR.VR.WEBGL/" element={<App />} />
+      <Route path="/AR.VR.WEBGL/portfolio" element={<Suspense fallback={<div>Loading...</div>}><PortfolioARVRLayoutLazy /></Suspense>} />
     </Routes>
   </BrowserRouter>,
   document.getElementById('root'),

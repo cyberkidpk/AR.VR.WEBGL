@@ -19,7 +19,7 @@ const LoadedProgressCircleContainer = ({ styleProps, isLoaded }) => {
         temp = (status === 'visible') ? setLoader(100) : setLoader(loader);
         setStatus(temp);
       }
-    }, 400);
+    }, 700);
   }, []);
   return (
     <Progress
@@ -28,7 +28,6 @@ const LoadedProgressCircleContainer = ({ styleProps, isLoaded }) => {
         to: '#2ae71c',
       }}
       strokeWidth={2}
-      showInfo={loader === 100}
       width={300}
       style={
         {
