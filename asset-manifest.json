@@ -1,25 +1,23 @@
 {
   "files": {
-    "main.css": "/AR.VR.WEBGL/static/css/main.75d9bb28.css",
-    "main.js": "/AR.VR.WEBGL/static/js/main.a744f199.js",
+    "main.css": "/AR.VR.WEBGL/static/css/main.a75f24c3.css",
+    "main.js": "/AR.VR.WEBGL/static/js/main.94d2c70f.js",
     "static/css/838.79e135a3.chunk.css": "/AR.VR.WEBGL/static/css/838.79e135a3.chunk.css",
-    "static/js/838.aa908963.chunk.js": "/AR.VR.WEBGL/static/js/838.aa908963.chunk.js",
+    "static/js/838.dab50950.chunk.js": "/AR.VR.WEBGL/static/js/838.dab50950.chunk.js",
     "static/js/787.98eae25c.chunk.js": "/AR.VR.WEBGL/static/js/787.98eae25c.chunk.js",
-    "static/css/495.38464c68.chunk.css": "/AR.VR.WEBGL/static/css/495.38464c68.chunk.css",
-    "static/js/495.2aac60b7.chunk.js": "/AR.VR.WEBGL/static/js/495.2aac60b7.chunk.js",
+    "static/js/941.31c60c59.chunk.js": "/AR.VR.WEBGL/static/js/941.31c60c59.chunk.js",
     "static/media/AR.VR.2021.Future.VBG.mp4": "/AR.VR.WEBGL/static/media/AR.VR.2021.Future.VBG.3ae20caa50fcc23efc14.mp4",
     "static/media/AR.VR.2021.Delusion32.mp3": "/AR.VR.WEBGL/static/media/AR.VR.2021.Delusion32.0509d3726087c24af96b.mp3",
     "index.html": "/AR.VR.WEBGL/index.html",
-    "main.75d9bb28.css.map": "/AR.VR.WEBGL/static/css/main.75d9bb28.css.map",
-    "main.a744f199.js.map": "/AR.VR.WEBGL/static/js/main.a744f199.js.map",
+    "main.a75f24c3.css.map": "/AR.VR.WEBGL/static/css/main.a75f24c3.css.map",
+    "main.94d2c70f.js.map": "/AR.VR.WEBGL/static/js/main.94d2c70f.js.map",
     "838.79e135a3.chunk.css.map": "/AR.VR.WEBGL/static/css/838.79e135a3.chunk.css.map",
-    "838.aa908963.chunk.js.map": "/AR.VR.WEBGL/static/js/838.aa908963.chunk.js.map",
+    "838.dab50950.chunk.js.map": "/AR.VR.WEBGL/static/js/838.dab50950.chunk.js.map",
     "787.98eae25c.chunk.js.map": "/AR.VR.WEBGL/static/js/787.98eae25c.chunk.js.map",
-    "495.38464c68.chunk.css.map": "/AR.VR.WEBGL/static/css/495.38464c68.chunk.css.map",
-    "495.2aac60b7.chunk.js.map": "/AR.VR.WEBGL/static/js/495.2aac60b7.chunk.js.map"
+    "941.31c60c59.chunk.js.map": "/AR.VR.WEBGL/static/js/941.31c60c59.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.75d9bb28.css",
-    "static/js/main.a744f199.js"
+    "static/css/main.a75f24c3.css",
+    "static/js/main.94d2c70f.js"
   ]
 }
