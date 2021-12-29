@@ -1,6 +1,7 @@
 {
   "name": "ar.vr.webgl2021",
   "version": "0.1.0",
+  "homepage": "http://cyberkidpk.github.io/AR.VR.WEBGL",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "4.0.0",
@@ -20,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
@@ -48,6 +51,7 @@
   },
   "devDependencies": {
     "eslint-config-airbnb": "^19.0.4",
+    "gh-pages": "^3.2.3",
     "husky": "^7.0.4",
     "lint-staged": "^12.1.4",
     "prettier": "^2.5.1"
