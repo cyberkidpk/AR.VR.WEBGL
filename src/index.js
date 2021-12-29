@@ -2,7 +2,6 @@ import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import {
   BrowserRouter,
-  Routes,
   Route,
   HashRouter,
 } from 'react-router-dom';
