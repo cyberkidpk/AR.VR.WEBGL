@@ -10,8 +10,10 @@ const LoadedClickMeButtonContainer = () => {
   }, []);
   return (
     <Button type="primary" className="clickme" size="large" ref={clickMeRef}>
-      <h3> HIT IT. </h3>
-      <p style={{ fontSize: 12, color: '#666' }}>3D EXPERIENCE TAKES AROUND 4 MINS TO LOAD</p>
+      <h3>
+        <p>HIT IT.</p>
+        <p style={{ fontSize: 12, color: '#666' }}>3D EXPERIENCE TAKES AROUND 4 MINS TO LOAD</p>
+      </h3>
     </Button>
   );
 };
