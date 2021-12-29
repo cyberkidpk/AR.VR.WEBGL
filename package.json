@@ -1,7 +1,7 @@
 {
   "name": "ar.vr.webgl2021",
   "version": "0.1.0",
-  "homepage": "http://cyberkidpk.github.io/AR.VR.WEBGL",
+  "homepage": "https://cyberkidpk.github.io/AR.VR.WEBGL/",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "4.0.0",
