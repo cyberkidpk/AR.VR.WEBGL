@@ -2,8 +2,8 @@ import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import {
   BrowserRouter,
+  Routes,
   Route,
-  HashRouter,
 } from 'react-router-dom';
 import './index.css';
 import App from './App';
@@ -13,10 +13,10 @@ const PortfolioARVRLayoutLazy = React.lazy(() => import('./app-layouts/Protfolio
 
 ReactDOM.render(
   <BrowserRouter>
-    <HashRouter>
+    <Routes>
       <Route path="/AR.VR.WEBGL/" element={<App />} />
       <Route path="/AR.VR.WEBGL/portfolio" element={<Suspense fallback={<div>Loading...</div>}><PortfolioARVRLayoutLazy /></Suspense>} />
-    </HashRouter>
+    </Routes>
   </BrowserRouter>,
   document.getElementById('root'),
 );
