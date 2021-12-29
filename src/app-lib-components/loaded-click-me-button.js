@@ -9,10 +9,9 @@ const LoadedClickMeButtonContainer = () => {
     gsap.to(clickMeRef.current, { rotation: '+=360' });
   }, []);
   return (
-    <Button type="primary" className="clickme" height={300} size="large" ref={clickMeRef}>
+    <Button type="primary" className="clickme" size="large" ref={clickMeRef}>
       <h3> HIT IT. </h3>
-      <br />
-      <p style={{ fontSize: 12 }}>3D EXPERIENCE TAKES AROUND 4 MINS TO LOAD</p>
+      <p style={{ fontSize: 12, color: '#666' }}>3D EXPERIENCE TAKES AROUND 4 MINS TO LOAD</p>
     </Button>
   );
 };
