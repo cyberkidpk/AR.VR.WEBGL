@@ -8,7 +8,7 @@ const LoadingARVR = (props) => {
   return (
     <>
       <LoadingOutlined />
-      <p>{isLoaded === 'L O A D I N G' ? 'L O A D I N G' : <Link to="/AR.VR.WEBGL/#/portfolio" activeStyle={{ color: 'blue' }}><LoadedClickMeButtonContainer /></Link> }</p>
+      <p>{isLoaded === 'L O A D I N G' ? 'L O A D I N G' : <Link to="/AR.VR.WEBGL/portfolio" activeStyle={{ color: 'blue' }}><LoadedClickMeButtonContainer /></Link> }</p>
     </>
   );
 };
