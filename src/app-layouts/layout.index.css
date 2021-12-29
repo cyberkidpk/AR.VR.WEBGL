@@ -1,0 +1,13 @@
+.vh100{
+    height: 100vh;
+    background:#f5f5f5;
+}
+.justCentAlCent{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display:flex;
+}
+.container{
+    position: relative;
+}
