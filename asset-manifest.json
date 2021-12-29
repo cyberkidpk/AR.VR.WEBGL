@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AR.VR.WEBGL/static/css/main.a75f24c3.css",
-    "main.js": "/AR.VR.WEBGL/static/js/main.ca191b68.js",
+    "main.js": "/AR.VR.WEBGL/static/js/main.f9dfcc37.js",
     "static/css/838.79e135a3.chunk.css": "/AR.VR.WEBGL/static/css/838.79e135a3.chunk.css",
     "static/js/838.dab50950.chunk.js": "/AR.VR.WEBGL/static/js/838.dab50950.chunk.js",
     "static/js/787.98eae25c.chunk.js": "/AR.VR.WEBGL/static/js/787.98eae25c.chunk.js",
@@ -10,7 +10,7 @@
     "static/media/AR.VR.2021.Delusion32.mp3": "/AR.VR.WEBGL/static/media/AR.VR.2021.Delusion32.0509d3726087c24af96b.mp3",
     "index.html": "/AR.VR.WEBGL/index.html",
     "main.a75f24c3.css.map": "/AR.VR.WEBGL/static/css/main.a75f24c3.css.map",
-    "main.ca191b68.js.map": "/AR.VR.WEBGL/static/js/main.ca191b68.js.map",
+    "main.f9dfcc37.js.map": "/AR.VR.WEBGL/static/js/main.f9dfcc37.js.map",
     "838.79e135a3.chunk.css.map": "/AR.VR.WEBGL/static/css/838.79e135a3.chunk.css.map",
     "838.dab50950.chunk.js.map": "/AR.VR.WEBGL/static/js/838.dab50950.chunk.js.map",
     "787.98eae25c.chunk.js.map": "/AR.VR.WEBGL/static/js/787.98eae25c.chunk.js.map",
@@ -18,6 +18,6 @@
   },
   "entrypoints": [
     "static/css/main.a75f24c3.css",
-    "static/js/main.ca191b68.js"
+    "static/js/main.f9dfcc37.js"
   ]
 }
