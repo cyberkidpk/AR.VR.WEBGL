@@ -74,7 +74,7 @@ const ThreeDModelPlaceHolderARVR = () => {
       controls.update();
       const loader = new GLTFLoader();
       loader.load(
-        'scene.gltf',
+        '/AR.VR.WEBGL/scene.gltf',
         (gltf) => {
           var mroot = gltf.scene;
           var bbox = new THREE.Box3().setFromObject(mroot);
