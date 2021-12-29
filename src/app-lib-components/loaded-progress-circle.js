@@ -19,7 +19,7 @@ const LoadedProgressCircleContainer = ({ styleProps, isLoaded }) => {
         temp = (status === 'visible') ? setLoader(100) : setLoader(loader);
         setStatus(temp);
       }
-    }, 4000);
+    }, 400);
   }, []);
   return (
     <Progress
