@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
+import 'antd/dist/antd.css';
 import { Button } from 'antd';
 
 const LoadedClickMeButtonContainer = () => {
@@ -7,7 +8,7 @@ const LoadedClickMeButtonContainer = () => {
   useEffect(() => {
     gsap.to(clickMeRef.current, { rotation: '+=360' });
   }, []);
-  return (<Button type="primary" className="clickme" shape="circle" size="large" ref={clickMeRef}><h3> HIT IT. </h3><br></br>3D EXPERIENCE TAKES AROUND 4 MINS TO LOAD</Button>);
+  return (<Button type="primary" className="clickme" size="large" ref={clickMeRef}><h3> HIT IT. </h3><br></br>3D EXPERIENCE TAKES AROUND 4 MINS TO LOAD</Button>);
 };
 
 export default LoadedClickMeButtonContainer;
