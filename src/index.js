@@ -15,7 +15,7 @@ ReactDOM.render(
   <BrowserRouter basename="/AR.VR.WEBGL">
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="/portfolio" element={<Suspense fallback={<div>Loading...</div>}><PortfolioARVRLayoutLazy /></Suspense>} />
+      <Route path="/portfolio" element={<Suspense fallback={<div>Loading ...</div>}><PortfolioARVRLayoutLazy /></Suspense>} />
     </Routes>
   </BrowserRouter>,
   document.getElementById('root'),
