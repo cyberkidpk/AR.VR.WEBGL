@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/AR.VR.WEBGL/static/css/main.a75f24c3.css",
-    "main.js": "/AR.VR.WEBGL/static/js/main.7fabe1d6.js",
+    "main.css": "/AR.VR.WEBGL/static/css/main.6c432c24.css",
+    "main.js": "/AR.VR.WEBGL/static/js/main.00665e40.js",
     "static/css/838.79e135a3.chunk.css": "/AR.VR.WEBGL/static/css/838.79e135a3.chunk.css",
-    "static/js/838.06886c7b.chunk.js": "/AR.VR.WEBGL/static/js/838.06886c7b.chunk.js",
+    "static/js/838.dc13136b.chunk.js": "/AR.VR.WEBGL/static/js/838.dc13136b.chunk.js",
     "static/js/787.98eae25c.chunk.js": "/AR.VR.WEBGL/static/js/787.98eae25c.chunk.js",
-    "static/js/941.31c60c59.chunk.js": "/AR.VR.WEBGL/static/js/941.31c60c59.chunk.js",
+    "static/js/941.2d7494f6.chunk.js": "/AR.VR.WEBGL/static/js/941.2d7494f6.chunk.js",
     "static/media/AR.VR.2021.Future.VBG.mp4": "/AR.VR.WEBGL/static/media/AR.VR.2021.Future.VBG.3ae20caa50fcc23efc14.mp4",
     "static/media/AR.VR.2021.Delusion32.mp3": "/AR.VR.WEBGL/static/media/AR.VR.2021.Delusion32.0509d3726087c24af96b.mp3",
     "index.html": "/AR.VR.WEBGL/index.html",
-    "main.a75f24c3.css.map": "/AR.VR.WEBGL/static/css/main.a75f24c3.css.map",
-    "main.7fabe1d6.js.map": "/AR.VR.WEBGL/static/js/main.7fabe1d6.js.map",
+    "main.6c432c24.css.map": "/AR.VR.WEBGL/static/css/main.6c432c24.css.map",
+    "main.00665e40.js.map": "/AR.VR.WEBGL/static/js/main.00665e40.js.map",
     "838.79e135a3.chunk.css.map": "/AR.VR.WEBGL/static/css/838.79e135a3.chunk.css.map",
-    "838.06886c7b.chunk.js.map": "/AR.VR.WEBGL/static/js/838.06886c7b.chunk.js.map",
+    "838.dc13136b.chunk.js.map": "/AR.VR.WEBGL/static/js/838.dc13136b.chunk.js.map",
     "787.98eae25c.chunk.js.map": "/AR.VR.WEBGL/static/js/787.98eae25c.chunk.js.map",
-    "941.31c60c59.chunk.js.map": "/AR.VR.WEBGL/static/js/941.31c60c59.chunk.js.map"
+    "941.2d7494f6.chunk.js.map": "/AR.VR.WEBGL/static/js/941.2d7494f6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a75f24c3.css",
-    "static/js/main.7fabe1d6.js"
+    "static/css/main.6c432c24.css",
+    "static/js/main.00665e40.js"
   ]
 }
