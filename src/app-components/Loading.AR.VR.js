@@ -6,10 +6,9 @@ import LoadedClickMeButtonContainer from '../app-lib-components/loaded-click-me-
 const LoadingARVR = (props) => {
   const { isLoaded } = props;
   return (
-    <>
-      <LoadingOutlined />
-      <p>{isLoaded === 'L O A D I N G' ? 'L O A D I N G' : <Link to="/portfolio" activeStyle={{ color: 'blue' }}><LoadedClickMeButtonContainer /></Link> }</p>
-    </>
+    <div>
+      <p>{isLoaded === 'L O A D I N G' ? <LoadingOutlined /> : <Link to="/portfolio" activeStyle={{ color: 'blue' }}><LoadedClickMeButtonContainer /></Link> }</p>
+    </div>
   );
 };
 

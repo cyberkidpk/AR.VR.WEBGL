@@ -16,7 +16,9 @@ const ThreeDModelPlaceHolderARVR = () => {
     light3,
     light4,
     controls;
-    // carScene = 460;
+  var [progress, setProgress] = useState(0);
+  var manager;
+  // carScene = 460;
   const [isLoaded, setIsLoaded] = useState('hidden');
   const [opIsLoaded, setOpIsLoaded] = useState('visible');
   const threeDPlaceholderRef = useRef();
@@ -43,9 +45,9 @@ const ThreeDModelPlaceHolderARVR = () => {
       camera.position.y = 100;
       camera.position.z = 500;
 
-      hLight = new THREE.AmbientLight(0xdd9708, 10);
+      hLight = new THREE.AmbientLight(0xdddddd, 10);
       scene.add(hLight);
-      dLight = new THREE.DirectionalLight(0xdd9708, 10);
+      dLight = new THREE.DirectionalLight(0xdddddd, 10);
       dLight.position.set(0, 1, 0);
       dLight.castShadow = true;
       scene.add(dLight);
@@ -72,7 +74,21 @@ const ThreeDModelPlaceHolderARVR = () => {
       targetDom.appendChild(renderer.domElement);
       controls = new OrbitControls(camera, renderer.domElement);
       controls.update();
-      const loader = new GLTFLoader();
+      manager = new THREE.LoadingManager();
+      manager.onLoad = function () {
+        console.log('Loading complete');
+      };
+      manager.onProgress = function (item, loaded, total) {
+        progress = Math.round((loaded / (total * 100)) * 10000, 2);
+        // console.log(item, loaded, total);
+        // console.log('Loaded:', progress);
+        setProgress(progress);
+      };
+      manager.onError = function (url) {
+        console.log(url);
+        console.log('Error loading');
+      };
+      const loader = new GLTFLoader(manager);
       loader.load(
         '/AR.VR.WEBGL/scene.gltf',
         (gltf) => {
@@ -111,15 +127,36 @@ const ThreeDModelPlaceHolderARVR = () => {
             {
               width: '100%',
               height: 20,
-              top: 400,
+              top: 350,
               position: 'absolute',
               zIndex: 100,
               textAlign: 'center',
               visibility: `${isLoaded}`,
             }
+          }>
+        {
+            (progress > 99.99) ? (
+              <div>
+                <h3 style={{ color: 'green' }}>
+                  <span>
+                    &lt; DRAG UP DOWN, LEFT RIGHT, PINCH, ZOOM IN ZOOM OUT  &gt; ON THE CAR MODEL
+                  </span>
+                </h3>
+                <h5 style={{ marginTop: 30 }}>
+                  <p><span style={{ color: '#d9363e' }}>React Js &amp; Concept</span></p>
+                  <p><span style={{ color: '#efefef' }}>Piyush Kanungo</span></p>
+                  <p><span style={{ color: '#d9363e' }}>3D Model</span></p>
+                  <p><span style={{ color: '#efefef' }}><strong> Videep Mishra </strong> A Dear Friend and Amazing 3D Artist</span></p>
+                </h5>
+              </div>
+            ) : (
+              <h6 style={{ color: '#d9363e' }}>
+                <span style={{ color: '#d9363e' }}>
+                  &lt; {`${progress} %`} &gt;
+                </span>
+              </h6>
+            )
           }
-        >
-        <h6 style={{ color: 'green' }}> &lt; DRAG UP DOWN, LEFT RIGHT &gt; ON THE CAR MODEL </h6>
       </div>
       <div
         ref={threeDPlaceholderRef}
@@ -142,6 +179,7 @@ const ThreeDModelPlaceHolderARVR = () => {
           }
         }
         isLoaded={isLoaded}
+        progress={progress}
       />
     </div>
   );

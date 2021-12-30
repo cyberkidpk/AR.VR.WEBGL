@@ -6,6 +6,7 @@ module.exports = {
       'no-param-reassign': 'off',
       'react/prop-types' : 'off',
       'padded-blocks': 'off',
+      'react/jsx-one-expression-per-line': 'warn',
       'prefer-destructuring' : 'warn',
       'react/jsx-closing-bracket-location':'off',
       'jsx-a11y/media-has-caption':'off',

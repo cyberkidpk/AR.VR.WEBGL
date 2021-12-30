@@ -7,7 +7,7 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => {
       setIsLoaded('L O A D E D... CLICK HERE');
-    }, 3500);
+    }, 500);
   }, []);
   return (
     <div className="App">
