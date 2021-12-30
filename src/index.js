@@ -12,10 +12,10 @@ import reportWebVitals from './reportWebVitals';
 const PortfolioARVRLayoutLazy = React.lazy(() => import('./app-layouts/Protfolio.AR.VR.Layout'));
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/AR.VR.WEBGL">
     <Routes>
-      <Route path="/AR.VR.WEBGL/" element={<App />} />
-      <Route path="/AR.VR.WEBGL/portfolio" element={<Suspense fallback={<div>Loading...</div>}><PortfolioARVRLayoutLazy /></Suspense>} />
+      <Route path="/" element={<App />} />
+      <Route path="/portfolio" element={<Suspense fallback={<div>Loading...</div>}><PortfolioARVRLayoutLazy /></Suspense>} />
     </Routes>
   </BrowserRouter>,
   document.getElementById('root'),
