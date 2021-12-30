@@ -127,7 +127,7 @@ const ThreeDModelPlaceHolderARVR = () => {
             {
               width: '100%',
               height: 20,
-              top: 350,
+              top: 320,
               position: 'absolute',
               zIndex: 100,
               textAlign: 'center',

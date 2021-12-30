@@ -7,7 +7,14 @@ const BackgroundVideo = ({ arvrProps, children }) => {
   return (
     <div className="container">
       {children}
-      <audio controls autoPlay loop>
+      <audio
+        controls
+        autoPlay
+        loop
+        style={{
+          position: 'absolute',
+          top: -99999,
+        }}>
         <source src={audioSource} type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio>
