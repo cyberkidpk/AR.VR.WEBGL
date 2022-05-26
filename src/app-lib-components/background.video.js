@@ -11,6 +11,7 @@ const BackgroundVideo = ({ arvrProps, children }) => {
         controls
         autoPlay
         loop
+        muted
         style={{
           position: 'absolute',
           top: -99999,
